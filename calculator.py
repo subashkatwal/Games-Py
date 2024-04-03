@@ -1,4 +1,3 @@
-import math 
 
 def add(a,b):
     return a+b
@@ -33,7 +32,7 @@ def main():
             a,b=map(int,input("Enter two numbers : ").split(" "))
             print("Result is : ",divide(a,b))
         elif(choice==5):
-            print("Choose a valid input,Exiting .....")
+            print(" You pressed exit option ! Exiting .....")
             break
         else:
             print("Choose number between 1 and 5 ...")
