@@ -41,7 +41,7 @@ def storyfirst(win):
     
     SubmitButton=Button(NewScreen,text="Submit",background="Aqua",font=("Times",12),
                         command=lambda:final(NewScreen,Name.get(),sports.get(),city.get(),player_name.get(),
-                                             drink.get(),snacks.get()))
+                        drink.get(),snacks.get()))
     SubmitButton.place(x=150,y=300)
     
     NewScreen.mainloop()
